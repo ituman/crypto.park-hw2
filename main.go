@@ -125,8 +125,9 @@ func main() {
 		sign,
 	)
 
-	fmt.Println("Sleep 5 seconds")
-	time.Sleep(5 * time.Second)
+	// Раскомментируй, чтобы стать ХАКЕРОМ :)
+	// fmt.Println("Sleep 5 seconds")
+	// time.Sleep(5 * time.Second)
 
 	// Car gets the command
 	msg, ok := car.Receive(secretMsg, sign)
